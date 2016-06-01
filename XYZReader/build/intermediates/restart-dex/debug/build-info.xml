@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86_64,x86"
-    api-level="23"
+    abi="armeabi-v7a,armeabi"
+    api-level="21"
     density="xxhdpi"
     format="7"
-    timestamp="6932972791045" >
+    timestamp="38601602773486" >
 
     <task
         name="javac"
@@ -23,12 +23,25 @@
         location="C:\Users\home\Desktop\XYZReader\XYZReader\build\intermediates\res\resources-debug.ap_"
         type="RESOURCES" />
 
-    <build timestamp="2109922326697" >
+    <build timestamp="37547404252602" >
         <artifact
             location="C:\Users\home\Desktop\XYZReader\XYZReader\build\outputs\apk\XYZReader-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="6932972791045" >
+    <build
+        timestamp="37984408021827"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="C:\Users\home\Desktop\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\home\Desktop\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\home\Desktop\XYZReader\XYZReader\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="38601602773486" >
         <artifact
             location="C:\Users\home\Desktop\XYZReader\XYZReader\build\intermediates\res\resources-debug.ap_"
             type="RESOURCES" />
