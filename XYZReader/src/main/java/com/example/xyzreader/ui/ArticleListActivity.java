@@ -14,9 +14,6 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.text.format.DateUtils;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
@@ -76,19 +73,6 @@ public class ArticleListActivity extends AppCompatActivity implements
         super.onStop();
         unregisterReceiver(mRefreshingReceiver);
     }
-    @Override
-       public boolean onCreateOptionsMenu(Menu menu) {
-
-                MenuInflater inflater = getMenuInflater();
-                inflater.inflate(R.menu.main, menu);
-                return true;
-            }
-
-                @Override
-        public boolean onOptionsItemSelected(MenuItem item) {
-
-                return super.onOptionsItemSelected(item);
-            }
 
     private boolean mIsRefreshing = false;
 

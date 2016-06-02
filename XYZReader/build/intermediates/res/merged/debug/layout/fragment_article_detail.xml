@@ -11,7 +11,8 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
             <FrameLayout
                 android:id="@+id/photo_container"
@@ -22,12 +23,10 @@
                 <ImageView
                     android:id="@+id/photo"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="112dp"
-                    android:background="@drawable/photo_background_protection" />
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:minHeight="@dimen/detail_photo_height"
+                    android:scaleType="centerCrop" />
 
             </FrameLayout>
 
