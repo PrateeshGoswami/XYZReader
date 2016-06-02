@@ -30,7 +30,7 @@
         android:layout_height="136dp"
         android:background="?colorPrimary"
         android:fitsSystemWindows="true"
-        android:elevation="8dp">
+        android:elevation="@dimen/elevation_app_bar">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:layout_width="match_parent"
